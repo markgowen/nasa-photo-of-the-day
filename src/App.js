@@ -1,13 +1,15 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import POD from './components/POD';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Navigation />
+      <Header />
+      <POD />
     </div>
   );
 }
